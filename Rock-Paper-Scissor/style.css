@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	padding:0px;
+	margin: 0px;
+	font-family: roboto;
+}
+.container{
+	padding: 10px;
+	font-family: roboto;
+}
+.title{
+	text-align: center;
+	margin-top: 20px;
+}
+table{
+	width: 400px;
+	text-align: center;
+	margin-left: 35%;
+	margin-top: 100px;
+	padding: 0px;
+}
+td{
+	padding: 50px;
+	font-size: 30px;
+	width: 200px;
+}
+.computer-points{
+	font-size: 70px;
+}
+.player-points{
+	font-size: 70px;
+}
+.controls{
+	padding: 20px;
+	text-align: center;
+	margin-top: 20px;
+}
+.ctrl-btn{
+	padding: 10px;
+	font-family: roboto;
+	font-size: 20px;
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	border: none;
+	background-color: #222;
+	color: white;
+	border-radius: 5px;
+	width: 100px;
+}
+.ctrl-btn:hover{
+	background-color: #444;
+}.ctrl-btn:active{
+	background-color: #333;
+}
+.cptr-res{
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+	padding: 30px;
+	border: 1px solid black;
+}
+.plyr-res{
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	top: 0px;
+	right: 0px;
+	padding: 30px;
+	border: 1px solid black;
+}
+.cptr-res span{
+	font-size: 50px;
+}
+.plyr-res span{
+	font-size: 50px;
+}
+.ctrl-rld-btn{
+	padding: 10px;
+	font-family: roboto;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+	background-color: #222;
+	color: white;
+	border-radius: 5px;
+	width: 300px;
+}
+.ctrl-rld-btn:hover{
+	background-color: #444;
+}.ctrl-rld-btn:active{
+	background-color: #333;
+}
